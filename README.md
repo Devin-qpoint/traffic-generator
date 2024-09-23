@@ -46,6 +46,3 @@ docker run -it --rm traffic-generator --python --go
 
 The traffic generation scripts (`traffic.py`, `traffic.js`, `traffic.go`, and `traffic.java`) are copied into the Docker image during build. If you want to modify the endpoints or behavior of these scripts, you'll need to update them and rebuild the Docker image.
 
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
